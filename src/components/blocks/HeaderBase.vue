@@ -10,7 +10,7 @@
                             <div>88451238</div>
                         </div>
                     </div>
-                    <div class="col-3 d-flex p-2 justify-content-end align-items-center">
+                    <div class="col-2 d-flex p-2 justify-content-end align-items-center">
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-pinterest-p"></i>
@@ -35,7 +35,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 d-flex justify-content-end">
                         <button type="button" class="green-button">
                             purchase
                         </button>
@@ -85,6 +85,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.col-2 {
+    gap: .625rem;
+}
 img {
     width: 100%;
 }
@@ -94,11 +97,6 @@ img {
 .contact-numbers {
     gap: .625rem;
 }
-
-.col-3 {
-    gap: .625rem;
-}
-
 ul {
     gap: 1.875rem;
 }
