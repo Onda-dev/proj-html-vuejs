@@ -1,48 +1,105 @@
 <template>
     <header>
-        <div class="container">
-            <div class="info-bar row justify-content-between">
-                <div class="col-3 d-flex p-2 align-items-center">
-                    <i class="fa-solid fa-phone"></i>
-                    <div class="contact-numbers">
-                        <span>(001)88451234</span>
-                        <span>88451238</span>
+        <div class="info-bar">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-2 d-flex p-2 align-items-center">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="contact-numbers d-flex">
+                            <div>(001)88451234</div>
+                            <div>88451238</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-3 d-flex p-2 justify-content-end align-items-center">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-pinterest-p"></i>
-                </div>
-            </div>
-            <div class="nav-bar">
-                <div class="row">
-                    <div class="col-3">
-
-                    </div>
-                    <div class="col-6">
-
-                    </div>
-                    <div class="col-3">
-
+                    <div class="col-3 d-flex p-2 justify-content-end align-items-center">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row py-4 align-items-center">
+                    <div class="col-2">
+                        <div class="logo">
+                            <img src="@/assets/img/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-8 d-flex justify-content-center">
+                        <nav class="d-flex align-items-center">
+                            <ul class="d-flex">
+                                <li v-for="(navLink, index) in navLinks" :key="index">
+                                    <a :href="navLink.link">{{navLink.text}}</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-2">
+                        <button type="button" class="green-button">
+                            purchase
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </header>
 </template>
 
 <script>
 export default {
-    name: 'HeaderBase'
+    name: 'HeaderBase',
+    data(){
+        return {
+            navLinks: [
+                {
+                    "text": "home",
+                    "link": "#"
+                },
+                {
+                    "text": "about",
+                    "link": "#"
+                },
+                {
+                    "text": "services",
+                    "link": "#"
+                },
+                {
+                    "text": "showcase",
+                    "link": "#"
+                },
+                {
+                    "text": "blog",
+                    "link": "#"
+                },
+                {
+                    "text": "contact",
+                    "link": "#"
+                },
+                
+            ]
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-header {
+img {
+    width: 100%;
+}
+.info-bar {
     background-color: #232323;
 }
+.contact-numbers {
+    gap: .625rem;
+}
+
 .col-3 {
     gap: .625rem;
+}
+
+ul {
+    gap: 1.875rem;
 }
 </style>

@@ -4,6 +4,16 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
 /*-----------------------
+    RESET
+-----------------------*/
+@import '../style/reset.scss';
+
+/*-----------------------
     TYPO
 -----------------------*/
 @import '../style/typography.scss';
+
+/*-----------------------
+    BUTTONS
+-----------------------*/
+@import '../style/buttons.scss'
