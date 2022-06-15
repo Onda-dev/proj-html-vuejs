@@ -2,13 +2,20 @@
     <section>
         <div class="hero d-flex justify-content-between align-items-center">
             <div class="text-box">
-            <p>17 years of experience</p>
-            <h1>Focus on your experience</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas atque possimus, libero eum laborum velit illo provident quisquam vitae eligendi officiis enim hic excepturi doloribus consectetur voluptas dolore veritatis?</p>
-            <button type="button" class="grey-button">
-                read more
-            </button>
-        </div>
+                <p>17 years of experience</p>
+                <h1>Focus on your experience</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas atque possimus, libero eum laborum velit illo provident quisquam vitae eligendi officiis enim hic excepturi doloribus consectetur voluptas dolore veritatis?</p>
+                <button type="button" class="grey-button">
+                    read more
+                </button>
+                <div class="social-row">
+                    <ul class="d-flex">
+                        <li v-for="(social, index) in socialLinks" :key="index">
+                            <a :href="social.link">{{social.socialName}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <img src="@/assets/img/hero.png" alt="">
         </div>
     </section>
@@ -16,19 +23,48 @@
 
 <script>
 export default {
-    name: 'HeroSection'
+    name: 'HeroSection',
+    data(){
+        return {
+            socialLinks: [
+                {
+                    "socialName": "Facebook",
+                    "link": "#"
+                },
+                {
+                    "socialName": "Instagram",
+                    "link": "#"
+                },
+                {
+                    "socialName": "Youtube",
+                    "link": "#"
+                },
+                {
+                    "socialName": "Twitter",
+                    "link": "#"
+                },
+            ] 
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 .hero {
-    height: 70vh;
+    height: 60vh;
     background-color: rgb(244, 244, 244);
     overflow: hidden;
     padding-left: 7.25rem;
     img {
-        height: 120%;
+        height: 130%;
         margin-right: -6.25rem;
+    }
+    ul {
+        padding-inline-start: 0px;
+        gap: 1.875rem;
+    }
+    .social-row {
+        padding-top: 8rem;
     }
 }
 </style>
