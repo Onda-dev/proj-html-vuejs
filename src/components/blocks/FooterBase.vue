@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="customer-service">
-            <i class="fa-solid fa-message"></i>
+            <a href="#"><i class="fa-solid fa-message"></i></a>
         </div>
     </footer>
 </template>
@@ -98,7 +98,6 @@ img {
 }
 .footer-bottom {
     background-color: rgb(58, 58, 58);
-    position: relative;
     .icons-box {
         gap: 1.25rem;
     }
