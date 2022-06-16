@@ -9,7 +9,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repudiandae, quisquam rem rerum ratione nesciunt animi, ea iste accusamus dolorem aliquam, consequuntur consectetur perspiciatis eaque vitae magnam dicta facilis dolor.</p>
                 </div>
             </div>
-            <div class="row gallery">
+            <div class="row gallery justify-content-center">
                 <img src="@/assets/img/ina-soulis-227104-unsplash-1024x1024.jpg" alt="">
                 <img src="@/assets/img/sunisa-misa-531163-unsplash-1024x1024.jpg" alt="">
                 <img src="@/assets/img/355H-1024x1024.jpg" alt="">
