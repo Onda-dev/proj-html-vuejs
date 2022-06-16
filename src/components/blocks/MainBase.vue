@@ -8,6 +8,7 @@
         <ServicesSection/>
         <ReviewSection/>
         <BlogSection/>
+        <ContactsSection/>
     </main>
 </template>
 
@@ -20,6 +21,7 @@ import FeedbacksSection from '../sections/FeedbacksSection.vue'
 import ServicesSection from '../sections/ServicesSection.vue'
 import ReviewSection from '../sections/ReviewSection.vue'
 import BlogSection from '../sections/BlogSection.vue'
+import ContactsSection from '../sections/ContactsSection.vue'
 
 export default {
     components: {
@@ -31,6 +33,7 @@ export default {
         ServicesSection,
         ReviewSection,
         BlogSection,
+        ContactsSection,
     },
     name: 'MainBase'
 }
