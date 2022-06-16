@@ -36,6 +36,23 @@
                 </div>
             </div>
         </div>
+        <div class="footer-bottom py-4">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        © 2020 manuel business theme
+                    </div>
+                    <div class="col-3 icons-box d-flex justify-content-end">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-service">
+            <i class="fa-solid fa-message"></i>
+        </div>
     </footer>
 </template>
 
@@ -78,5 +95,29 @@ export default {
 <style lang="scss" scoped>
 img {
     width: 100%;
+}
+.footer-bottom {
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    .icons-box {
+        gap: 1.25rem;
+    }
+}
+.customer-service {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    i {
+        border-radius: 50%;
+        vertical-align: middle;
+        background-color: rgb(175, 100, 255);
+        padding: 1rem;
+    }
+
 }
 </style>
