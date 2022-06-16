@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-8 d-flex justify-content-center">
                         <nav class="d-flex align-items-center">
-                            <ul class="d-flex">
+                            <ul class="d-flex mb-0">
                                 <li v-for="(navLink, index) in navLinks" :key="index">
                                     <a :href="navLink.link">{{navLink.text}}</a>
                                 </li>
