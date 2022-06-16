@@ -11,9 +11,9 @@
                         </div>
                     </div>
                     <div class="col-2 d-flex p-2 justify-content-end align-items-center">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-pinterest-p"></i>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                     </div>
                 </div>
             </div>
