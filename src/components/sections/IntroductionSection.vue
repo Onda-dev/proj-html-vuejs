@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-7">
-                    <div class="row">
+                    <div class="row justify-content-end">
                         <div class="col-5">
                             <i class="fa-solid fa-gauge-simple-high"></i>
                             <h4>Speed Optimization</h4>
@@ -49,7 +49,7 @@ export default {
 .col-7 .row {
     gap: 1.25rem;
     .col-5 {
-        background-color: rgb(209, 209, 209);
+        background-color: rgb(230, 230, 230);
         border-radius: 1.2rem;
         h4 {
             margin: 1.25rem 0;
