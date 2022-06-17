@@ -22,7 +22,7 @@
                 <img src="@/assets/img/cody-davis-253928-unsplash-1024x1024.jpg" alt="">                                              
             </div>
             <div class="row justify-content-center">
-                <button type="button" class="green-button mt-5">
+                <button type="button" class="green-button green-button-shadown mt-5">
                     read more
                 </button>
             </div>

@@ -46,9 +46,9 @@
                         © 2020 manuel business theme
                     </div>
                     <div class="col-3 icons-box d-flex justify-content-end">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-pinterest-p"></i>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                     </div>
                 </div>
             </div>

@@ -15,3 +15,11 @@ button {
     background: rgb(84,84,84);
     background: linear-gradient(90deg, rgba(84,84,84,1) 0%, rgba(56,56,56,1) 40%, rgba(0,0,0,1) 100%);
 }
+
+.grey-button-shadow {
+    box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.3);
+}
+
+.green-button-shadown {
+    box-shadow: 8px 8px 14px rgba(0, 255, 179, 0.3);
+}

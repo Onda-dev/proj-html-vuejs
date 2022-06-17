@@ -26,7 +26,7 @@
                     </div>                    
                 </div>
             </div>
-            <button type="button" class="grey-button mt-5">
+            <button type="button" class="grey-button grey-button-shadow mt-5">
                 view all post
             </button>
         </div>
@@ -57,6 +57,7 @@ section {
     height: 16rem;
     background-size: cover;
     border-radius: .625rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 0 30px 0 rgba(0, 0, 0, 0.15);
 }
 .info-box {
     transform: translate(0, -50%);
@@ -66,6 +67,7 @@ section {
     text-align: left;
     width: 85%;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 0 30px 0 rgba(0, 0, 0, 0.15);
     i {
         font-size: .4rem;
         color: lime;

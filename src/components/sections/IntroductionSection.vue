@@ -6,7 +6,7 @@
                     <h2>We Are Here To Make Your <span class="green-text">Website</span> Look More <span class="green-text">Elegant</span> And Stylish!</h2>
                     <div class="divisor my-3"></div>
                     <div class="my-4">
-                        <button type="button" class="green-button">
+                        <button type="button" class="green-button green-button-shadown">
                             view all
                         </button>
                     </div>
@@ -53,8 +53,9 @@ section {
 .col-7 .row {
     gap: 1.25rem;
     .col-5 {
-        background-color: rgb(230, 230, 230);
+        background-color: white;
         border-radius: 1.2rem;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 0 30px 0 rgba(0, 0, 0, 0.15);
         h4 {
             margin: 1.25rem 0;
         }

@@ -77,5 +77,6 @@ section {
     transform: translate(-2.3rem);
     border-radius: 0.4rem;
     background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 0 30px 0 rgba(0, 0, 0, 0.15);
 }
 </style>

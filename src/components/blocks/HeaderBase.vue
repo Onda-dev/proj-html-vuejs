@@ -36,10 +36,10 @@
                         </nav>
                     </div>
                     <div class="col-2 d-flex justify-content-end align-items-center">
-                        <button type="button" class="green-button">
+                        <button type="button" class="green-button green-button-shadown">
                             purchase
                         </button>
-                        <i class="fa-solid fa-magnifying-glass ml-2"></i>
+                        <i class="fa-solid fa-magnifying-glass green-text ml-2"></i>
                     </div>
                 </div>
             </div>

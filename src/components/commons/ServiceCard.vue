@@ -69,5 +69,6 @@ ul {
     .service {
         font-size: .875rem;
     }
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05), 0 0 30px 0 rgba(0, 0, 0, 0.15);
 }
 </style>

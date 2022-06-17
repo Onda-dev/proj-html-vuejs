@@ -13,7 +13,7 @@
                 <div class="col-5 second-card py-5">
                     <h4>What Are You Waiting For?</h4>
                     <h2>Let's Talk About Work</h2>
-                    <button type="button" class="grey-button mt-5">
+                    <button type="button" class="grey-button grey-button-shadow mt-5">
                         start now
                     </button>
                 </div>
@@ -56,6 +56,7 @@ section {
     background: rgb(54,54,54);
     background: linear-gradient(90deg, rgba(54,54,54,1) 20%, rgba(0,0,0,1) 100%);
     border-radius: .625rem;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5), 0 0 30px 0 rgba(0, 0, 0, 0.15);
     button {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
@@ -68,6 +69,7 @@ section {
     background: rgb(0,214,185);
     background: linear-gradient(45deg, rgba(0,214,185,0.8) 10%, rgba(154,226,0,0.8) 100%);
     border-radius: .625rem;
+    box-shadow: 0 10px 30px 0 rgba(0, 255, 119, 0.4), 0 0 30px 0 rgba(0, 255, 119, 0.2);
 }
 input {
     width: 14rem;
