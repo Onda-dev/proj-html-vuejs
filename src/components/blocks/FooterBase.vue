@@ -11,6 +11,7 @@
                         <a href="#">
                             <h4>quick links</h4>
                         </a>
+                        <div class="divisor mt-2 mb-5"></div>
                         <nav>
                             <ul class="text-center">
                                 <li v-for="(link, index) in quickLinks" :key="index">
@@ -22,6 +23,7 @@
                     <div class="col-3">
                         <a href="#">
                             <h4>contact</h4>
+                            <div class="divisor mt-2 mb-5"></div>
                         </a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <p>info@yourdomain.com</p>
@@ -30,6 +32,7 @@
                     <div class="col-3 map-box">
                         <a href="#">
                             <h4>locations on map</h4>
+                            <div class="divisor mt-2 mb-5"></div>
                         </a>
                         <img src="@/assets/img/map.png" alt="">
                     </div>

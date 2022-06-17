@@ -10,6 +10,7 @@
                 </div>
                 <div class="col-5">
                     <h3>learn more about our <span class="green-text">missions</span></h3>
+                    <div class="divisor my-3"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo illo eius repellat, voluptate eos vitae fuga accusamus? Exercitationem illo dolorum vel porro voluptatum, natus esse asperiores veritatis quas nobis!</p>
                     <button type="button" class="green-button">
                         read more

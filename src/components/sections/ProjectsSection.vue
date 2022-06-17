@@ -3,7 +3,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
+                    <div class="divisor mb-3"></div>
                     <h2>Our recent <span class="green-text">web design</span> & some examples of past <span class="green-text">projects</span></h2>
+                    <div class="divisor mt-4"></div>
                 </div>
                 <div class="col-6 my-5">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repudiandae, quisquam rem rerum ratione nesciunt animi, ea iste accusamus dolorem aliquam, consequuntur consectetur perspiciatis eaque vitae magnam dicta facilis dolor.</p>

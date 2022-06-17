@@ -4,6 +4,7 @@
             <div class="row">
                 <div class="col-3 d-flex flex-column justify-content-center">
                     <h3>With <span class="green-text">Live Chat 24/7</span> Support</h3>
+                    <div class="divisor my-4"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel, aliquam ipsam ea necessitatibus facilis cupiditate atque.</p>
                 </div>
                 <div class="col-9 card-box d-flex justify-content-end">

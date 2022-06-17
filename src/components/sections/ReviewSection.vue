@@ -51,6 +51,7 @@ section {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,0.9) 0%, rgba(64,64,64,0.9) 100%);
 }
 </style>

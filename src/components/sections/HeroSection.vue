@@ -4,7 +4,8 @@
             <div class="text-box">
                 <h3 class="green-text">17 years of experience</h3>
                 <h1>Focus on your <br><span class="green-text">Business</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas atque possimus, libero eum laborum velit illo provident quisquam vitae eligendi officiis enim hic excepturi doloribus consectetur voluptas dolore veritatis?</p>
+                <div class="divisor my-4"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas atque possimus, libero eum laborum velit illo provident quisquam vitae eligendi officiis.</p>
                 <button type="button" class="grey-button mt-5">
                     read more
                 </button>

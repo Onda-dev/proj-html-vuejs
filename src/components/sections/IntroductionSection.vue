@@ -4,6 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-4 d-flex flex-column justify-content-center">
                     <h2>We Are Here To Make Your <span class="green-text">Website</span> Look More <span class="green-text">Elegant</span> And Stylish!</h2>
+                    <div class="divisor my-3"></div>
                     <div class="my-4">
                         <button type="button" class="green-button">
                             view all

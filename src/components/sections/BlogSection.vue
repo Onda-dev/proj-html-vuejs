@@ -2,6 +2,7 @@
     <section class="blog">
         <div class="container text-center">
             <h2 class="text-center">Latest News & Our <span class="green-text">Blog</span></h2>
+            <div class="divisor mx-auto my-4"></div>
             <div class="row">
                 <div class="col-4">
                     <div class="img-box first-img-box"></div>

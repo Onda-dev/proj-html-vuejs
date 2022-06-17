@@ -22,6 +22,7 @@
                 </div>
                 <div class="col-6 py-5 px-5 col-over">
                     <h3>We <span class="green-text">Love</span> What We Do</h3>
+                    <div class="divisor my-4"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, doloremque autem quasi possimus sit perspiciatis! Iure nostrum culpa illo rem libero quam, fuga odio, provident ea omnis, neque optio eveniet!</p>
                     <ul class="pl-0">
                         <li>
