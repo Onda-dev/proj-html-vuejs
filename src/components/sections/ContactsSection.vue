@@ -53,18 +53,20 @@ section {
     margin: 10rem 0;
 }
 .first-card {
-    background-color: rgb(51, 51, 51);
+    background: rgb(54,54,54);
+    background: linear-gradient(90deg, rgba(54,54,54,1) 20%, rgba(0,0,0,1) 100%);
     border-radius: .625rem;
     button {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         color: rgb(140, 140, 140);
-        background-color: rgb(64, 64, 64);
+        background-color: rgb(63, 63, 63);
         height: 2.6rem;
     }
 }
 .second-card {
-    background-color: lawngreen;
+    background: rgb(0,214,185);
+    background: linear-gradient(45deg, rgba(0,214,185,0.8) 10%, rgba(154,226,0,0.8) 100%);
     border-radius: .625rem;
 }
 input {
@@ -73,7 +75,7 @@ input {
     border-bottom-left-radius: 3.125rem;
     height: 2.6rem;
     border: none;
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(63, 63, 63);
     padding-left: 1.25rem;
 }
 img {

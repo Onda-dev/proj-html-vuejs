@@ -7,9 +7,11 @@ button {
 }
 
 .green-button {
-    background-color: rgb(99, 255, 72);
+    background: rgb(154,226,0);
+    background: linear-gradient(90deg, rgba(154,226,0,1) 10%, rgba(0,214,185,1) 100%);
 }
 
 .grey-button {
-    background-color: rgb(67, 67, 67);
+    background: rgb(84,84,84);
+    background: linear-gradient(90deg, rgba(84,84,84,1) 0%, rgba(56,56,56,1) 40%, rgba(0,0,0,1) 100%);
 }

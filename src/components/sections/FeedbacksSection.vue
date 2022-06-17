@@ -69,7 +69,8 @@ section {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(124, 252, 0, 0.5);
+    background: rgb(0,214,185);
+    background: linear-gradient(45deg, rgba(0,214,185,0.9) 10%, rgba(154,226,0,0.9) 100%);
 }
 .col-over {
     transform: translate(-2.3rem);

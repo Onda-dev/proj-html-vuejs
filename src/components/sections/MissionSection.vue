@@ -57,6 +57,7 @@ img {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(124, 252, 0, 0.5);
+    background: rgb(154,226,0);
+    background: linear-gradient(45deg, rgba(154,226,0,0.8) 10%, rgba(0,214,185,0.8) 100%);
 }
 </style>

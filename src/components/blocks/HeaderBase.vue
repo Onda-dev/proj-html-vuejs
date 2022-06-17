@@ -93,7 +93,7 @@ img {
     width: 100%;
 }
 .info-bar {
-    background-color: #232323;
+    background-color: #303030;
 }
 .contact-numbers {
     gap: .625rem;

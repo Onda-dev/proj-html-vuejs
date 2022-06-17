@@ -7,21 +7,21 @@
                     <div class="img-box first-img-box"></div>
                     <div class="info-box">
                         <div class="date">May 24, 2018 - by Alex</div>
-                        <div class="title"><i class="fa-solid fa-circle"></i> Marketing Ideas</div>
+                        <div class="title"><i class="fa-solid fa-circle mr-2"></i>Marketing Ideas</div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="img-box second-img-box"></div>
                     <div class="info-box">
                         <div class="date">May 24, 2018 - by Alex</div>
-                        <div class="title"><i class="fa-solid fa-circle"></i> Marketing Ideas</div>
+                        <div class="title"><i class="fa-solid fa-circle mr-2"></i>Marketing Ideas</div>
                     </div>               
                 </div>
                 <div class="col-4">
                     <div class="img-box third-img-box"></div>
                     <div class="info-box">
                         <div class="date">May 24, 2018 - by Alex</div>
-                        <div class="title"><i class="fa-solid fa-circle"></i> Marketing Ideas</div>
+                        <div class="title"><i class="fa-solid fa-circle mr-2"></i>Marketing Ideas</div>
                     </div>                    
                 </div>
             </div>

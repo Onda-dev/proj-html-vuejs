@@ -107,7 +107,8 @@ export default {
     }
 }
 .footer-bottom {
-    background-color: rgb(58, 58, 58);
+    background: rgb(54,54,54);
+    background: linear-gradient(90deg, rgba(54,54,54,1) 20%, rgba(0,0,0,1) 100%);
     .icons-box {
         gap: 1.25rem;
     }
