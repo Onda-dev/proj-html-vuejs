@@ -1,9 +1,9 @@
 <template>
-    <section>
+    <section class="services">
         <div class="container">
             <div class="row">
                 <div class="col-3 d-flex flex-column justify-content-center">
-                    <h3>With Live Chat 24/7 Support</h3>
+                    <h3>With <span class="green-text">Live Chat 24/7</span> Support</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel, aliquam ipsam ea necessitatibus facilis cupiditate atque.</p>
                 </div>
                 <div class="col-9 card-box d-flex justify-content-end">
@@ -49,8 +49,8 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    padding: 6.25rem 0;
-    background-color: rgb(230, 230, 230);
+    padding: 10rem 0;
+    background-color: rgb(248, 248, 248);
 }
 .card-box {
     gap: 1.25rem;

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="contacts">
         <div class="container text-center">
             <div class="row justify-content-around">
                 <div class="col-5 first-card py-5">
@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    margin: 6.25rem 0;
+    margin: 10rem 0;
 }
 .first-card {
     background-color: rgb(51, 51, 51);
@@ -58,8 +58,8 @@ section {
     button {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        color: black;
-        background-color: grey;
+        color: rgb(140, 140, 140);
+        background-color: rgb(64, 64, 64);
         height: 2.6rem;
     }
 }
@@ -68,12 +68,12 @@ section {
     border-radius: .625rem;
 }
 input {
-    width: 18.75rem;
+    width: 14rem;
     border-top-left-radius: 3.125rem;
     border-bottom-left-radius: 3.125rem;
     height: 2.6rem;
     border: none;
-    background-color: grey;
+    background-color: rgb(64, 64, 64);
     padding-left: 1.25rem;
 }
 img {

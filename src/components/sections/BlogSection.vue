@@ -1,7 +1,7 @@
 <template>
-    <section>
+    <section class="blog">
         <div class="container text-center">
-            <h2 class="text-center">Latest News and Our Blog</h2>
+            <h2 class="text-center">Latest News & Our <span class="green-text">Blog</span></h2>
             <div class="row">
                 <div class="col-4">
                     <div class="img-box first-img-box"></div>
@@ -40,8 +40,8 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    margin: 6.25rem 0;
-    background-color: rgb(231, 231, 231);
+    padding: 10rem 0;
+    background-color: rgb(248, 248, 248);
 }
 .first-img-box {
     background-image: url(/src/assets/img/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg);

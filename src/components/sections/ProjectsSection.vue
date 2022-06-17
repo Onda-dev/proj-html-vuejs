@@ -1,9 +1,9 @@
 <template>
-    <section>
+    <section class="projects">
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <h2>Our recent web design and some examples of past projects</h2>
+                    <h2>Our recent <span class="green-text">web design</span> & some examples of past <span class="green-text">projects</span></h2>
                 </div>
                 <div class="col-6 my-5">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repudiandae, quisquam rem rerum ratione nesciunt animi, ea iste accusamus dolorem aliquam, consequuntur consectetur perspiciatis eaque vitae magnam dicta facilis dolor.</p>
@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    margin: 8rem 0;
+    margin: 10rem 0;
 }
 .gallery{
     gap: .3rem;

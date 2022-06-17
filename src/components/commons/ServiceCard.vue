@@ -5,24 +5,19 @@
         <div class="price py-3 mb-5"><span class="currency">$</span>{{price}} <span class="service">/{{service}}</span></div>
         <ul>
             <li>
-                <i class="fa-solid fa-check"></i>
-                Lorem ipsum dolor sit
+                <i class="fa-solid fa-check mr-2"></i>Lorem ipsum dolor sit
             </li>
             <li>
-                <i class="fa-solid fa-check"></i>
-                Lorem ipsum dolor sit
+                <i class="fa-solid fa-check mr-2"></i>Lorem ipsum dolor sit
             </li>
             <li>
-                <i class="fa-solid fa-check"></i>
-                Lorem ipsum dolor sit
+                <i class="fa-solid fa-check mr-2"></i>Lorem ipsum dolor sit
             </li>
             <li>
-                <i class="fa-solid fa-check"></i>
-                Lorem ipsum dolor sit
+                <i class="fa-solid fa-check mr-2"></i>Lorem ipsum dolor sit
             </li>
             <li>
-                <i class="fa-solid fa-check"></i>
-                Lorem ipsum dolor sit
+                <i class="fa-solid fa-check mr-2"></i>Lorem ipsum dolor sit
             </li>
         </ul>
     </div>

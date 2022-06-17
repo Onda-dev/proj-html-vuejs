@@ -1,4 +1,13 @@
 /*---------------------
+    FONT
+---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------
     HEADER
 ---------------------*/
 header {
@@ -11,6 +20,12 @@ header {
         font-size: .8125rem;
     }
 }
+/*---------------------
+    COMMONS
+---------------------*/
+.green-text {
+    color: rgb(0, 209, 160);;
+}
 
 /*---------------------
     MAIN
@@ -20,5 +35,110 @@ header {
     ul {
         text-transform: uppercase;
         font-size: .875rem;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: .875rem;
+        text-transform: uppercase;
+    }
+}
+// INTRODUCTION
+.introduction {
+    h2 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+// MISSION
+.mission {
+    h3 {
+        font-size: 2.4rem;
+        max-width: 12rem;
+    }
+}
+// PROJECTS
+.projects {
+    h2 {
+        max-width: 27rem;
+        font-size: 2.5rem;
+    }
+}
+// FEEDBACKS
+.feedbacks {
+    .text-box {
+        color: white;
+        .projects-number {
+            font-size: 4rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        .comments-number, .happy-number {
+            font-size: 1.6rem;
+        }
+    }
+    h3 {
+        font-size: 2.5rem;
+        max-width: 17rem;
+    }
+}
+// SERVICES
+.services {
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+// REVIEW
+.review {
+    p {
+        font-style: italic;
+        font-size: 1.2rem;
+    }
+    .client-name {
+        text-transform: uppercase;
+    }
+}
+// BLOG
+.blog {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+// CONTACTS
+.contacts {
+    h2 {
+        font-size: 2rem;
+        color: white;
+    }
+    h4 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: rgb(140, 140, 140);
+    }
+    input {
+        color: rgb(140, 140, 140);
+    }
+}
+/*---------------------
+    FOOTER
+---------------------*/
+footer {
+    h4 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 3.75rem;
+    }
+    .footer-top {
+        font-size: 0.9rem;
+    }
+    .footer-bottom {
+        color: rgb(185, 185, 185);
     }
 }

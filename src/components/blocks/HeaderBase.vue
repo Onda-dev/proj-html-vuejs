@@ -35,10 +35,11 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-2 d-flex justify-content-end">
+                    <div class="col-2 d-flex justify-content-end align-items-center">
                         <button type="button" class="green-button">
                             purchase
                         </button>
+                        <i class="fa-solid fa-magnifying-glass ml-2"></i>
                     </div>
                 </div>
             </div>

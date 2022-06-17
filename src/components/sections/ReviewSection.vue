@@ -1,12 +1,12 @@
 <template>
-    <section>
+    <section class="review">
         <div class="overlay d-flex flex-row align-items-center">
             <div class="container d-flex flex-column align-items-center">
                 <div class="text-box text-center">
-                <i class="fa-solid fa-quote-left"></i>
+                <i class="fa-solid fa-quote-left green-text"></i>
                 <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut assumenda ex delectus non totam voluptatum deleniti, explicabo molestias sapiente consectetur, vel odit id molestiae cumque accusantium minima dolores debitis!</p>
                 <div class="img-box mb-3"></div>
-                <div class="client-name">Lissa Durbin</div>
+                <div class="client-name green-text">Lissa Durbin</div>
                 <div class="subtitle">client</div>
             </div>
             </div>
@@ -43,9 +43,6 @@ section {
     color: white;
     i {
         font-size: 2rem;
-    }
-    .client-name {
-        text-transform: uppercase;
     }
 }
 .overlay {

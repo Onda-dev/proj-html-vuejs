@@ -1,16 +1,15 @@
 <template>
-    <section>
+    <section class="mission">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-6">
-                    <img class="img-under" src="@/assets/img/busy-architect-PYVKWM4-1024x872.jpg" alt="">
+                    <div class="img-under"></div>
                     <div class="div">
-                        <div class="overlay"></div>
                         <img class="img-over" src="@/assets/img/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-5">
-                    <h3>learn more about our missions</h3>
+                    <h3>learn more about our <span class="green-text">missions</span></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo illo eius repellat, voluptate eos vitae fuga accusamus? Exercitationem illo dolorum vel porro voluptatum, natus esse asperiores veritatis quas nobis!</p>
                     <button type="button" class="green-button">
                         read more
@@ -29,9 +28,9 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    margin: 8rem 0;
-    padding: 10rem 0;
-    background-color: rgb(238, 238, 238);
+    margin-top: 10rem;
+    padding: 12rem 0;
+    background-color: rgb(248, 248, 248);
 }
 img {
     width: 100%;
@@ -41,9 +40,23 @@ img {
     border-radius: 0.7rem;
 }
 .img-under {
+    min-width: 34rem;
+    min-height: 30rem;
+    background-image: url(/src/assets/img/busy-architect-PYVKWM4-1024x872.jpg);
+    background-size: cover;
+    overflow: hidden;
     border-radius: 1.25rem;
     position: absolute;
     left: -8rem;
     top: -5rem;
+}
+.img-under::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124, 252, 0, 0.5);
 }
 </style>

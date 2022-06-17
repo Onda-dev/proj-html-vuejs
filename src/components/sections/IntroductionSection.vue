@@ -1,9 +1,9 @@
 <template>
-    <section class="my-5">
+    <section class="introduction">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-4 d-flex flex-column justify-content-center">
-                    <h2>We Are Here To Make Your Website Look More Elegant And Stylish</h2>
+                    <h2>We Are Here To Make Your <span class="green-text">Website</span> Look More <span class="green-text">Elegant</span> And Stylish!</h2>
                     <div class="my-4">
                         <button type="button" class="green-button">
                             view all
@@ -13,24 +13,24 @@
                 <div class="col-7">
                     <div class="row justify-content-end">
                         <div class="col-5">
-                            <i class="fa-solid fa-gauge-simple-high"></i>
+                            <i class="fa-solid fa-gauge-simple-high green-text"></i>
                             <h4>Speed Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quidem consectetur maiores eius.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-5">
-                            <i class="fa-solid fa-cloud"></i>
+                            <i class="fa-solid fa-cloud green-text"></i>
                             <h4>Speed Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quidem consectetur maiores eius.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-5">
-                            <i class="fa-solid fa-tablet-screen-button"></i>
+                            <i class="fa-solid fa-tablet-screen-button green-text"></i>
                             <h4>Speed Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quidem consectetur maiores eius.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="col-5">
-                            <i class="fa-solid fa-bullhorn"></i>
+                            <i class="fa-solid fa-bullhorn green-text"></i>
                             <h4>Speed Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quidem consectetur maiores eius.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
                 </div>
@@ -46,6 +46,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+section {
+    margin-top: 10rem;
+}
 .col-7 .row {
     gap: 1.25rem;
     .col-5 {
