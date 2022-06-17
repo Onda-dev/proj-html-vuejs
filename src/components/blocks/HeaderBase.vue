@@ -39,7 +39,7 @@
                         <button type="button" class="green-button green-button-shadown">
                             purchase
                         </button>
-                        <i class="fa-solid fa-magnifying-glass green-text ml-2"></i>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass green-text ml-2"></i></a>
                     </div>
                 </div>
             </div>

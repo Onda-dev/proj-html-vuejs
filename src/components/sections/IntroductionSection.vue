@@ -64,5 +64,15 @@ section {
         }
         padding: 1.875rem;
     }
+    // .col-5::before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: rgb(0,214,185);
+    //     background: linear-gradient(45deg, rgba(0,214,185,0.9) 10%, rgba(154,226,0,0.9) 100%);
+    // }
 }
 </style>

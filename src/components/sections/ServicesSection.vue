@@ -31,7 +31,7 @@ export default {
                     "service": "Design"
                 },
                 {
-                    "title": "develpment",
+                    "title": "development",
                     "subtitle": "WordPress Project",
                     "price": 15,
                     "service": "Project"
